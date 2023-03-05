@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Francois+One&family=Open+Sans:wght@600&family=PT+Serif&family=Roboto:wght@100&family=Varela+Round&display=swap');
+@media only screen and (max-width: 768px) {
+    main {
+        width: 300px;
+    }
+} 
+
+* {
+    margin: 10;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+    
+}
+
+nav *{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+.button {
+    height: 100%;
+    margin: 25px auto;
+    border:rgb(58, 70, 100) solid 2px;
+    border-radius: 5px;
+    background-color: rgb(58, 70, 100);
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 38%;
+    font-family: "Open Sans";
+    font-size: 1.8em;
+    text-decoration: none;
+}
+
+
+#logo {
+    width:20%;
+    height:0%;
+    font-family: "Francois One";
+    font-size: 80px;
+    color: rgb(58, 70, 100);
+    text-align: right;
+  
+}
+
+.heading {
+    text-align: center;
+    align-items: center;
+    flex-wrap: wrap;
+    font-family: "Varela Round";
+    color: rgb(29, 187, 245);
+    font-size: 2em;
+}
+
+.generic-content {
+    display: flex;
+    flex-direction: row;
+    font-family: 'Open Sans';
+    font-size: 2em;
+    width: 40%;
+    color:rgb(58, 70, 100);
+    text-align: right;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.content {
+    font-family: "PT Serif";
+    text-align: center;
+    color: rgb(29, 187, 245);
+    font-size: 2em;
+    font-weight: bolder;
+}
+
+
+.card {
+    display: flex;
+    flex-direction: row;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 2em;
+    width: 60%;
+    flex-wrap: wrap;
+    color: rgb(58, 70, 100);
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    font-family: "Open Sans";
+    font-weight: bold;
+    font-size: 2em;
+    width: 60%;
+    flex-wrap: wrap;
+    color: rgb(58, 70, 100);
+    align-items: stretch;
+    justify-content: center;
+}
